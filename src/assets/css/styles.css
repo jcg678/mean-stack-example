@@ -71,7 +71,7 @@ header a{
 	transition: all 300ms;
 }
 
-header a:hover{
+header a:hover, .actived{
 	background:rgba(0,0,0,0.8);
 }
 
@@ -109,4 +109,47 @@ footer{
 	margin: 0px auto;
 	padding-top: 15px;
 	color: rgba(0,0,0,0.5);
+}
+
+/* Sobre mí*/
+#title{
+	width: 70%;
+	margin: 0px auto;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 70px;
+
+}
+
+#title h1{
+	font-family: "finger";
+	font-size: 60px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+}
+
+#title h2{
+	font-size: 25px;
+	color: gray;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+article.about{
+	width: 70%;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	font-size: 23px;
+}
+
+.about h2{
+	border-bottom: 1px solid #ccc;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.about p{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: justify;
 }
