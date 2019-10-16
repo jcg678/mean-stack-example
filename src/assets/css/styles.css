@@ -216,3 +216,23 @@ form input[disabled]{
 	opacity: 0.4;
 	cursor: not-allowed;
 }
+
+.message{
+	padding: 5px;
+	border: 1px solid #eee;
+	width: 50%;
+}
+
+.success{
+	background-color: green;
+	color: white;
+}
+
+.success a{
+	color:white;
+}
+
+.failed{
+	background:red;
+	color: white;
+}
