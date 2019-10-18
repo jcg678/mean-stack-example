@@ -94,6 +94,7 @@ header a:hover, .actived{
 /*Contenedor*/
 #content{
 	min-height: 700px;
+	height: auto;
 	width: 75%;
 	margin: 0px auto;
 	box-shadow: 0px 0px 40px black;
@@ -236,3 +237,27 @@ form input[disabled]{
 	background:red;
 	color: white;
 }
+
+.project{
+	list-style: none;
+	display: block;
+	float: left;
+	width: 28%;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+
+.project .image{
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+}
+
+
+.project img{
+	width: 100%;
+}
+
