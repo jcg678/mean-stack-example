@@ -7,24 +7,23 @@ declare var $:any;
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-
-  constructor() { }
+  public widthSlider: number;
+  public anchuraToSlider: number;
+  public captions: boolean;
+  constructor() { 
+  	this.captions = true;
+  }
 
   ngOnInit() {
   	
-  	$("#logo").click(function(e){
-  		e.preventDefault();
-  		$("header").css("background","green").css("height","200px");
-  	})
-
-  	 $('.galeria').bxSlider({
-    mode: 'fade',
-    captions: true,
-    slideWidth: 600
-  });
-
-
-
   }
 
+
+  cargarSlider(){
+  	this.anchuraToSlider = this.widthSlider;
+  }
+
+  resetearSlider(){
+  	this.anchuraToSlider = 0;
+  }
 }
